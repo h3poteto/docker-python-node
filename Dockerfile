@@ -5,7 +5,7 @@ RUN set -x \
     && apt-get update \
     && apt-get install -y \
     curl \
-    && curl -sL https://deb.nodesource.com/setup_6.x | bash - \
+    && curl -sL https://deb.nodesource.com/setup_9.x | bash - \
     && apt-get install -y \
     nodejs && \
     rm -rf /var/lib/apt/lists/*
